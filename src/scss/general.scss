@@ -1,9 +1,9 @@
-@use "./mixins";
+@use "./mixins" as m;
 
 *,
 *::before,
 *::after {
-  @include mixins.reset;
+  @include m.reset;
   box-sizing: border-box;
 }
 
