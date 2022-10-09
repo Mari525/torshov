@@ -1,3 +1,7 @@
 @use "./variables.scss";
 @use "./mixins.scss";
 @use "./general.scss";
+
+@use "./blocks/card.scss";
+@use "./blocks/header.scss";
+@use "./blocks/todo.scss";
