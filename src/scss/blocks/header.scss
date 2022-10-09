@@ -1,0 +1,39 @@
+.header {
+  padding: 11.9rem 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: url("../img/promo.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+
+  &__heading {
+    margin-bottom: 1.1rem;
+    padding: 3px 12px 5px;
+    background-color: #1D3557;
+    border-radius: 10px;
+
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 3.7rem;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  &__text {
+    margin: 0 1rem;
+    padding: 5px 28px 8px;
+    background-color: #457B9D;
+    border-radius: 10px;
+
+    font-weight: 700;
+    font-size: 1.9rem;
+    line-height: 2.2rem;
+    text-align: center;
+    color: #ffffff;
+  }
+}
+
