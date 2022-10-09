@@ -1,0 +1,55 @@
+.card {
+  max-width: 40rem;
+  margin: 5rem auto;
+
+  display: flex;
+
+  background: #A8DADC;
+  box-shadow: 0px 6px 0px #1D3557;
+  border-radius: 10px;
+
+  &__img-wrapper {
+    margin: 2.3rem 0.4rem 2.2rem 1.3rem;
+  }
+
+  &__img {
+    max-width: 180px;
+    max-height: 248px;
+    border-radius: 10px;
+  }
+
+  &__wrapper {
+    margin: 2.6rem 1.1rem 0.3rem;
+    text-align: center;
+  }
+
+  &__heading {
+    margin-top: 2.6rem;
+    margin-bottom: 1.4rem;
+
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    text-align: center;
+    color: #1D3557;
+  }
+
+  &__text {
+    margin-bottom: 2.6rem;
+
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    text-align: center;
+    color: #1D3557;
+  }
+
+  &__author {
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    text-align: center;
+    color: #1D3557;
+  }
+}
